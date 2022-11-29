@@ -7,10 +7,7 @@
     <title>Fintech</title>
 
     <!--Icon-->
-    <script
-      src="https://kit.fontawesome.com/5ef5b550f1.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="./assets/icomoon/style.css" />
 
     <!--Css-->
     <link rel="stylesheet" href="./css/style.css" />
@@ -20,7 +17,7 @@
       <nav class="nav">
         <a class="logo" href="#">Fintech</a>
         <!--Menu-->
-        <div class="menu">
+        <div class="menu close">
           <ul>
             <li><a href="#">Início</a></li>
             <li><a href="#">Sobre</a></li>
@@ -30,17 +27,14 @@
           </ul>
           <!-- /menu -->
         </div>
-        <div>
-          <button>
-            <img src="./assets/icon/button-menu.svg" alt="" class="icon-menu" />
-          </button>
-        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
     <main>
       <div class="title">
-        <h1>Bem vindo a nossa <span>Fintech</span></h1>
+        <h1>Bem vindo a nossa <br /><span>Fintech</span></h1>
       </div>
       <div>
         <img src="./assets//img/home.svg" alt="" class="img-home" />
@@ -55,5 +49,7 @@
         <button class="button">Abra sua conta</button>
       </div>
     </main>
+
+    <script src="./main.js"></script>
   </body>
 </html>
