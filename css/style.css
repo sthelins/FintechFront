@@ -37,14 +37,6 @@ nav .menu {
   cursor: pointer;
 }
 
-.icon-menu::before {
-  content: '\e900';
-}
-
-.icon-close::before {
-  content: '\ea0f';
-}
-
 /* menu aberto */
 nav .show {
   background-color: #1a1a1a;
